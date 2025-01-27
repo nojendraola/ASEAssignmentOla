@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="44605aec-a682-4d35-8abc-8d65748e9e0f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="5738788c-e027-1122-ed00-85e3a92c2bbc.htm">Boose_<wbr />Designer_<wbr />Ola</a>
+    </li>
+    <li>
+      <a href="830af29b-db7a-e5f3-a3dc-d8814ef3b378.htm">App<wbr />Parser</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="ccbd719e-f1e5-490b-dd44-2d569350b0a9" href="ccbd719e-f1e5-490b-dd44-2d569350b0a9.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="e07990bc-19cf-4bc5-9068-b6740cf5abcb" class="has-submenu" href="e07990bc-19cf-4bc5-9068-b6740cf5abcb.htm">
+        <span data-tocFile="../toc/IDBND.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="44605aec-a682-4d35-8abc-8d65748e9e0f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="5738788c-e027-1122-ed00-85e3a92c2bbc.htm">Boose_<wbr />Designer_<wbr />Ola</a>
+    </li>
+    <li>
+      <a href="57bf413f-a447-3498-166f-68c74275e60a.htm">App<wbr />Triangle</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="cf91d18d-cde7-672c-884d-ae711a797ba6" href="cf91d18d-cde7-672c-884d-ae711a797ba6.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="40095736-c6ad-884d-b96e-ddce680f5740" class="has-submenu" href="40095736-c6ad-884d-b96e-ddce680f5740.htm">
+        <span data-tocFile="../toc/IDBVD.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Properties</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="74ed8e06-3efa-602a-da37-4374912fe67c" class="has-submenu" href="74ed8e06-3efa-602a-da37-4374912fe67c.htm">
+        <span data-tocFile="../toc/IDCVD.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="93bb4fa7-5e3e-1d1f-b9eb-494f262ff648" href="93bb4fa7-5e3e-1d1f-b9eb-494f262ff648.htm">Fields</a>
+    </li>
+  </tocItems>
+</toc>

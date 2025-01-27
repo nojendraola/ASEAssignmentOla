@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="44605aec-a682-4d35-8abc-8d65748e9e0f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="5738788c-e027-1122-ed00-85e3a92c2bbc.htm">Boose_<wbr />Designer_<wbr />Ola</a>
+    </li>
+    <li>
+      <a href="42db52c0-0836-9b21-7a93-d3ee77e5f954.htm">App<wbr />Peek</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="5a93fe5b-c359-27ed-a0bb-f61cf82c470f" href="5a93fe5b-c359-27ed-a0bb-f61cf82c470f.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="9a9d1fcd-6fe0-d765-19d4-f5988803df39" href="9a9d1fcd-6fe0-d765-19d4-f5988803df39.htm">Properties</a>
+    </li>
+    <li>
+      <a id="14720260-4416-b80e-29a8-693d34713752" class="has-submenu" href="14720260-4416-b80e-29a8-693d34713752.htm">
+        <span data-tocFile="../toc/IDCOD.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="997a613e-de78-494d-5272-abc6dbf34794" href="997a613e-de78-494d-5272-abc6dbf34794.htm">Fields</a>
+    </li>
+  </tocItems>
+</toc>
