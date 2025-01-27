@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Boose_Testing</name>
+    </assembly>
+    <members>
+        <member name="T:Boose_Designer_Ola.Tests.AppCanvasTests">
+            <summary>
+            Contains unit tests for the <see cref="T:Boose_Designer_Ola.AppCanvas"/> class.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Setup">
+            <summary>
+            Initializes a new instance of the <see cref="T:Boose_Designer_Ola.AppCanvas"/> class before each test.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.SetColour_SetsValidColour">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)"/> method sets a valid color.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.SetColour_ThrowsExceptionForInvalidColour">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.SetColour(System.Int32,System.Int32,System.Int32)"/> method throws an exception for an invalid color.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.MoveTo_ValidPosition_ChangesPosition">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.MoveTo(System.Int32,System.Int32)"/> method changes the pen position to a valid position.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.MoveTo_InvalidPosition_ThrowsException">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.MoveTo(System.Int32,System.Int32)"/> method throws an exception for an invalid position.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.DrawTo_ValidCoordinates_DrawsLine">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.DrawTo(System.Int32,System.Int32)"/> method draws a line to valid coordinates.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.DrawTo_InvalidCoordinates_ThrowsException">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.DrawTo(System.Int32,System.Int32)"/> method throws an exception for invalid coordinates.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Circle_ValidArguments_DrawsCircle">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.Circle(System.Int32,System.Boolean)"/> method draws a circle with valid arguments.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Circle_InvalidArguments_ThrowsException">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.Circle(System.Int32,System.Boolean)"/> method throws an exception for invalid arguments.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Rect_ValidArguments_DrawsRectangle">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)"/> method draws a rectangle with valid arguments.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Rect_InvalidArguments_ThrowsException">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.Rect(System.Int32,System.Int32,System.Boolean)"/> method throws an exception for invalid arguments.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.WriteText_DisplaysText">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCanvas.WriteText(System.String)"/> method displays text on the canvas.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCanvasTests.Cleanup">
+            <summary>
+            Cleans up the test environment after each test.
+            </summary>
+        </member>
+        <member name="T:Boose_Designer_Ola.Tests.AppCommandFactoryTests">
+            <summary>
+            Contains unit tests for the <see cref="T:Boose_Designer_Ola.AppCommandFactory"/> class.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.Setup">
+            <summary>
+            Initializes a new instance of the <see cref="T:Boose_Designer_Ola.AppCommandFactory"/> class before each test.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppInt_ForIntCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppInt"/> for the "int" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppReal_ForRealCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppReal"/> for the "real" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppArray_ForArrayCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppArray"/> for the "array" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppIf_ForIfCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppIf"/> for the "if" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppElse_ForElseCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppElse"/> for the "else" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppWhile_ForWhileCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppWhile"/> for the "while" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppFor_ForForCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppFor"/> for the "for" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppMethod_ForMethodCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppMethod"/> for the "method" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppAboutBOOSE_ForAboutCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppAboutBOOSE"/> for the "about" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsMoveTo_ForMovetoCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns a <see cref="T:BOOSE.MoveTo"/> for the "moveto" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsDrawTo_ForDrawtoCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns a <see cref="T:BOOSE.DrawTo"/> for the "drawto" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppPenColour_ForPenCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppPenColour"/> for the "pen" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppTriangle_ForTriCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppTriangle"/> for the "tri" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppWrite_ForWriteCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppWrite"/> for the "write" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppClear_ForClearCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppClear"/> for the "clear" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppReset_ForResetCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppReset"/> for the "reset" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppRect_ForRectCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppRect"/> for the "rect" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppEnd_ForEndCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppEnd"/> for the "end" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsCall_ForCallCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns a <see cref="T:BOOSE.Call"/> for the "call" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppPoke_ForPokeCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppPoke"/> for the "poke" command.
+            </summary>
+        </member>
+        <member name="M:Boose_Designer_Ola.Tests.AppCommandFactoryTests.MakeCommand_ReturnsAppPeek_ForPeekCommand">
+            <summary>
+            Tests that the <see cref="M:Boose_Designer_Ola.AppCommandFactory.MakeCommand(System.String)"/> method returns an <see cref="T:Boose_Designer_Ola.AppPeek"/> for the "peek" command.
+            </summary>
+        </member>
+    </members>
+</doc>

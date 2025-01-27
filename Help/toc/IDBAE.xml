@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="44605aec-a682-4d35-8abc-8d65748e9e0f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="0084096c-6cd9-a901-3688-1ec0cca02fc8.htm">Boose_<wbr />Designer_<wbr />Ola.<wbr />Tests</a>
+    </li>
+    <li>
+      <a href="4671cf60-6ecf-2823-2393-f40c2a4f44ce.htm">App<wbr />Canvas<wbr />Tests</a>
+    </li>
+    <li>
+      <a href="0e6b3543-ed90-ab0c-9ef7-c7acd29a5fea.htm">Methods</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="7caa54ed-e6d4-6a6d-b934-ac47bfc6f0a7" href="7caa54ed-e6d4-6a6d-b934-ac47bfc6f0a7.htm">Circle_<wbr />Invalid<wbr />Arguments_<wbr />Throws<wbr />Exception</a>
+    </li>
+    <li>
+      <a id="a125ae7c-bde8-c108-d15c-70548186db64" href="a125ae7c-bde8-c108-d15c-70548186db64.htm">Circle_<wbr />Valid<wbr />Arguments_<wbr />Draws<wbr />Circle</a>
+    </li>
+    <li>
+      <a id="bd9e9e51-ffc5-897a-1317-518da9965ea3" href="bd9e9e51-ffc5-897a-1317-518da9965ea3.htm">Cleanup</a>
+    </li>
+    <li>
+      <a id="78861395-3ef3-850b-6626-5c577a154c7e" href="78861395-3ef3-850b-6626-5c577a154c7e.htm">Draw<wbr />To_<wbr />Invalid<wbr />Coordinates_<wbr />Throws<wbr />Exception</a>
+    </li>
+    <li>
+      <a id="131e59a7-ef71-62a7-46d7-175a3197395f" href="131e59a7-ef71-62a7-46d7-175a3197395f.htm">Draw<wbr />To_<wbr />Valid<wbr />Coordinates_<wbr />Draws<wbr />Line</a>
+    </li>
+    <li>
+      <a id="65593eb2-cf6d-95f9-9a33-397552814986" href="65593eb2-cf6d-95f9-9a33-397552814986.htm">Move<wbr />To_<wbr />Invalid<wbr />Position_<wbr />Throws<wbr />Exception</a>
+    </li>
+    <li>
+      <a id="c5a0deb4-2db4-8029-edfe-199ee70f9354" href="c5a0deb4-2db4-8029-edfe-199ee70f9354.htm">Move<wbr />To_<wbr />Valid<wbr />Position_<wbr />Changes<wbr />Position</a>
+    </li>
+    <li>
+      <a id="bda293fc-f697-5e8a-5557-86d6784c4d05" href="bda293fc-f697-5e8a-5557-86d6784c4d05.htm">Rect_<wbr />Invalid<wbr />Arguments_<wbr />Throws<wbr />Exception</a>
+    </li>
+    <li>
+      <a id="4999a4e8-e720-e57b-5ed4-bd344d954d64" href="4999a4e8-e720-e57b-5ed4-bd344d954d64.htm">Rect_<wbr />Valid<wbr />Arguments_<wbr />Draws<wbr />Rectangle</a>
+    </li>
+    <li>
+      <a id="5ba0cb3f-9516-bfb6-552f-5df755e0a0b9" href="5ba0cb3f-9516-bfb6-552f-5df755e0a0b9.htm">Set<wbr />Colour_<wbr />Sets<wbr />Valid<wbr />Colour</a>
+    </li>
+    <li>
+      <a id="ca6e72e5-3620-26fc-25b1-a9279774ab9c" href="ca6e72e5-3620-26fc-25b1-a9279774ab9c.htm">Set<wbr />Colour_<wbr />Throws<wbr />Exception<wbr />For<wbr />Invalid<wbr />Colour</a>
+    </li>
+    <li>
+      <a id="10679cc4-00c4-34b3-5bfb-23ebfe5bb5ce" href="10679cc4-00c4-34b3-5bfb-23ebfe5bb5ce.htm">Setup</a>
+    </li>
+    <li>
+      <a id="bffe9061-da7e-be9b-f02f-dc8f1255ab77" href="bffe9061-da7e-be9b-f02f-dc8f1255ab77.htm">Write<wbr />Text_<wbr />Displays<wbr />Text</a>
+    </li>
+  </tocItems>
+</toc>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="44605aec-a682-4d35-8abc-8d65748e9e0f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="5738788c-e027-1122-ed00-85e3a92c2bbc.htm">Boose_<wbr />Designer_<wbr />Ola</a>
+    </li>
+    <li>
+      <a href="c7c1aaec-af4b-8158-a525-5da89d6d5154.htm">App<wbr />Pen<wbr />Colour</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="87c9cacd-9938-6e44-17bb-10af8881da8f" href="87c9cacd-9938-6e44-17bb-10af8881da8f.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="830caf33-f03c-9eca-8684-a3edddb04a18" href="830caf33-f03c-9eca-8684-a3edddb04a18.htm">Properties</a>
+    </li>
+    <li>
+      <a id="0741f437-3bd5-57c5-5b7e-9ece06949605" class="has-submenu" href="0741f437-3bd5-57c5-5b7e-9ece06949605.htm">
+        <span data-tocFile="../toc/IDCPD.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Methods</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="0a96ad21-04e4-8864-5010-c0d820d061de" href="0a96ad21-04e4-8864-5010-c0d820d061de.htm">Fields</a>
+    </li>
+  </tocItems>
+</toc>
